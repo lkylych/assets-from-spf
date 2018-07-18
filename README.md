@@ -1,7 +1,7 @@
 # assets-from-spf
 
-- A Python script to parse netblocks &amp; domain names from SPF(Sender Policy Framework) DNS record
-- For every parsed asset, the script will also find and print Autonomous System Number(ASN) details
+- A Python script designed to parse netblocks &amp; domain names from SPF(Sender Policy Framework) DNS record
+- For every parsed asset, the script will find and print Autonomous System Number(ASN) details
 - For now, the output is printed in JSON format only 
 
 ## Demo
@@ -46,14 +46,14 @@ Options:
 
 ## Usage
 
-- Parse the SPF record for assets but don't do ASN enumeration
+- Parse the SPF record for assets but don't do an ASN enumeration
 
 
 ```
 $ python assets_from_spf.py target_url
 ```
 
-- Parse the SPF record for assets and do ASN enumeration
+- Parse the SPF record for assets and do an ASN enumeration
 
 ```
 $ python assets_from_spf.py target_url --asn
